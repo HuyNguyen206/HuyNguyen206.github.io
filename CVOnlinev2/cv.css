@@ -86,6 +86,8 @@ nav.navbar.navbar-expand-lg a
     padding: 130px 0;
     position: relative;
 }
+
+.content-1:before {content: "";width: 50%;position: absolute;height: 100%;background: #e4555b;top: 0;left: 0;}
 @media (min-width: 992px)
 {
     *{}
