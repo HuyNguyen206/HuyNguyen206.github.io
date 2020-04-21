@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Nguyen Le Huy",
+        "phone": "098232121",
+        "role": 1
+    },
+    {
+        "id": 2,
+        "name": "Nguyen Van Nam",
+        "phone": "098232121",
+        "role": 2
+    },
+    {
+        "id": 3,
+        "name": "Tran Huu Tri",
+        "phone": "098232121",
+        "role": 2
+    },
+    {
+        "id": 4,
+        "name": "Tran Hao Dan",
+        "phone": "098232121",
+        "role": 1
+    },
+    {
+        "id": 5,
+        "name": "Nguyen Thi Nu",
+        "phone": "098232121",
+        "role": 1
+    },
+    {
+        "id": 6,
+        "name": "Cao Thi Duyen",
+        "phone": "098232121",
+        "role": 3
+    }
+]
