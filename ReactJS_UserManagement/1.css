@@ -1,0 +1,44 @@
+*{}
+
+.add-user {
+    border: 1px solid #007bff;
+    padding: 10px;
+}
+
+.add-user .form-group {
+    /* margin: 0; */
+}
+
+.action a {
+    padding: 5px 18px;
+    display: inline-block;
+    color: white !important;
+}
+
+
+
+.row.search {
+    padding-top: 50px;
+}
+
+.search .form-group {
+    display: flex;
+    align-items: center;
+}
+
+.search input.form-control {
+    width: 70%;
+}
+
+input.form-control {
+    display: inline-block;
+}
+
+.search a.btn.btn-sm.btn-primary {
+    padding: 12px 10px 12px 10px;
+    display: inline-flex;
+    width: 25%;
+    /* line-height: 24px; */
+    justify-content: center;
+    align-items: center;
+}
