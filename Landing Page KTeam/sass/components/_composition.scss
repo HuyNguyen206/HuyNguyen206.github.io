@@ -1,0 +1,31 @@
+.skill-info
+{
+    background: #ffffff8a;
+    text-align: center;
+    border-radius: 2rem;
+    padding: 3rem 1rem 4rem 1rem;
+    box-shadow: 0.1rem .1rem 1.4rem #80808070;
+    transition: .4s;
+    &:hover {
+        transform: scale(1.01) translateY(-1rem);
+        cursor: pointer;
+    }
+    &__logo {
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+        color: transparent;
+        background-image:  linear-gradient(to right bottom,$background_light,$background_dark) ;
+        -webkit-background-clip: text;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        color: gray;
+    }
+
+    &__detail {
+        font-size: 1.13rem;
+        line-height: 2rem;
+        color: gray;
+    }
+}

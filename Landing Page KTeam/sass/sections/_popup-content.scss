@@ -1,0 +1,108 @@
+.popup
+{
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #00000087;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .6s;
+    &:target
+    {
+        opacity: 1;
+        visibility: visible;
+    }
+    &:target &-content
+    {
+        transform: scale(1);
+    }
+    &-content
+    {
+        background: white;
+        width: 70%;
+        margin: auto;
+        border-radius: 3rem;
+        overflow: hidden;
+        transition: .5s;
+        transform: scale(0.5);
+        &__left
+        {
+            display: table-cell;
+            width: 33.3333%;
+        }
+        &__right
+        {
+            display: table-cell;
+            width: 66.7777%;
+            vertical-align: middle;
+            padding-left: 2rem;
+            padding-bottom: 2rem;
+            position: relative;
+        }
+        &--pt0
+        {
+            padding-top: 0 !important;
+        }
+        &--mr3
+        {
+            margin-right:3rem !important;
+        }
+        &__image {
+            width: 100%;
+        }
+        &__title {
+            font-size: 3rem;
+            letter-spacing: 0.2rem;
+            text-align: left;
+            margin:2rem 0 0 0;
+            background-image: linear-gradient(to right, #0000ff8f, #0000ffcc);
+            @include respond(phone)
+            {
+                font-size: 2rem !important;
+                letter-spacing: .1rem !important;
+            }
+            @include respond(small-screen)
+            {
+                font-size: 2rem !important;
+                letter-spacing: .1rem !important;
+            }
+        }
+        &__note {
+            margin: 2rem 0;
+            font-size:1.4rem;
+            color: gray;
+        }
+        &__text {
+            word-spacing: 0.2rem;
+            line-height: 1.8rem;
+            font-weight: 400;
+            column-count: 2;
+            column-gap: 3rem;
+            column-rule: 0.2rem solid #8080806e;
+            padding-right: 2rem;
+        }
+        &__button {
+            margin-top: 2rem;
+        }
+        &__close {
+            float: right;
+            position: absolute;
+            top: 0.8rem;
+            right: 2rem;
+            color: gray;
+            font-size: 1.8rem;
+            cursor: pointer;
+            transition: .4s;
+            text-decoration: none;
+            &:hover {
+                color: #0000ff9c;
+            }
+        }
+    }
+}

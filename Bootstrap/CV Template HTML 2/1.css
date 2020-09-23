@@ -1,0 +1,306 @@
+*
+{
+	font-family: 'Montserrat';
+}
+
+.work-info-wrapper {
+    border-bottom: 3px dashed #dbdbdb;
+    padding: 10px 0;
+}
+
+.work-info-wrapper:last-child {
+    border-bottom: none;
+}
+
+.task {
+    font-weight: 500;
+}
+
+h5.company {
+    font-weight: 800;
+}
+
+h2.sub-title {
+    color: #307711;
+    font-weight: 700;
+    margin: 0;
+    line-height: 26px;
+    padding-top: 10px;
+    font-size: 26px;
+}
+
+span.period {
+    font-weight: 700;
+    color: #939393;
+    font-size: 20px;
+}
+
+.education.experience {
+    display: flex;
+    align-items: center;
+}
+
+h5.score {
+    font-size: 15px;
+}
+
+h4.major {
+    font-size: 17px;
+}
+
+.hobby {
+    padding-bottom: 20px;
+}
+
+.hobby img {width: 35px;margin-right: 9px;}
+
+.hobby span {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.education-wrapper {
+    padding: 0 35px;
+    border-right: 2px dashed white;
+    border-left: 2px dashed white;
+}
+
+.about-me {
+    background: #142b0b;
+    padding: 30px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    margin-top: -97px;
+}
+
+.about-me p {
+    margin: 0;
+    text-align: center;
+}
+
+.skill {
+    padding-bottom: 20px;
+}
+
+.rating-no-fill {
+    background: white;
+}
+
+.education-info {
+    border-bottom: 2px dashed #759d69;
+    /* display: inline-block; */
+    padding: 30px 0;
+}
+
+.education-info h3 {
+    font-size: 17px;
+}
+
+
+
+
+.education-info h2 {
+    font-size: 20px;
+}
+
+.education span {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-info h2 {
+    font-size: 45px;
+    display: inline-block;
+}
+
+.info .row {
+    padding-bottom: 17px;
+}
+
+.info span, .info img {
+    /* display: inline-block; */
+    /* padding-left: 10px; */
+    word-break: break-all;
+}
+
+.info {
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.info .row .col-2 {
+    /* padding: 0; */
+}
+
+.info img {width: 38px;height: 47px;}
+@font-face
+{
+	src:url(fonts/Thinking_of_Betty.ttf);
+	font-family: tob-r;
+}
+
+header {
+    /* background-color: #ffffff; */
+    /* padding-top: 50px; */
+    margin-bottom: 113px !important;
+}
+
+img.pic-behind {
+    position: absolute;
+    width: 245px;
+    top: 0;
+    /* left: 0; */
+    z-index: 2;
+    box-shadow: 0px 3px 21px #80808085;
+    height: 300px;
+}
+
+img.pic-front {
+    position: absolute;
+    width: 245px;
+    top: 0;
+    /* left: 0; */
+    z-index: 1;
+    transform: rotate(-14deg);
+    box-shadow: 0px 3px 21px #80808085;
+    height: 300px;
+}
+
+.avatar {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    /* position: absolute; */
+    /* top: 40%; */
+    /* left: 26%; */
+    /* font-size: 38px; */
+    /* width: 100%; */
+    background-color: #307711;
+    color: white;
+    transform: skewX(-26deg);
+    /* z-index: 3; */
+    /* transform: translateY(-122px); */
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.title span {
+    transform: skewX(26deg) !important;
+    display: inline-block;
+    font-family: tob-r;
+    font-size: 28px;
+}
+
+h1.middleName {
+    /* position: absolute; */
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    font-size: 95px;
+    margin-top: -6%;
+}
+
+h1.surName {
+    /* position: absolute; */
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    font-size: 95px;
+    margin-bottom: -5%;
+}
+
+.name {
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+}
+
+.name h1 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main-info
+{
+	margin-bottom: 30px;
+	background-color: #307711;
+	/*background-image: url(images/bg2.png);*/
+	background-size: cover;
+	color: white;
+	/* background-repeat: repeat; */
+	/* padding-bottom: 198px; */
+	/* padding-top: 17px; */
+}
+.main-info:before
+{
+	content: "";
+	height: 46px;
+	background-image: url(images/bg-top.png);
+	display: block;
+	width: 100%;
+	transform: translateY(-25px);
+}
+.main-info:after
+{
+	content: "";
+	height: 40px;
+	background-image: url(images/bg-bottom.png);
+	display: block;
+	width: 100%;
+	/* margin-top: 5px; */
+	transform: translateY(40px);
+}
+.education{
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+
+.education.experience:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    bottom: -10px;
+    height: 20px;
+    background: url(images/bottom2.png) no-repeat;
+    background-size: cover;
+    display: block;
+    left: 0;
+}
+
+.education img {
+    width: 26px;
+    margin-right: 5px;
+}
+.education:after
+{
+	content: "";
+	width: 100%;
+	position: absolute;
+	bottom: -10px;
+	height: 20px;
+	background: url(images/border-bottom.png) no-repeat;
+	background-size: contain;
+	display: inline-block;
+	left: 0;
+}
+.education-info:last-child
+{
+	border-bottom: none;
+}
+.rating-fill {
+    height: 100%;
+    background: #4fc51c;
+}
+
+.skill-rating .row {
+    height: 100%;
+}

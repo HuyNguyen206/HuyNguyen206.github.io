@@ -1,0 +1,116 @@
+.toggle-menu-section {
+    .custom-checkbox-toggle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        position: fixed;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        right: 4rem;
+        top: 2rem;
+        background-color: white;
+        z-index: 9999;
+        box-shadow: 0.1rem 0.1rem 1.5rem #00000099;
+        &:hover span:before {
+            top: -1rem;
+        }
+        &:hover span:after {
+            top: 1rem;
+        }
+        &__bar {
+            position: relative;
+            transition: .1s !important;
+            &, &:before, &:after
+            {
+                    content: "";
+                    width: 3rem;
+                    height: 0.2rem;
+                    background: gray;
+                    transition: .4s;
+                   
+            }
+            &:before
+            {
+                position: absolute;
+                top: -0.8rem;
+            }
+            &:after {
+                position: absolute;
+                top: .8rem;
+            }
+        }
+    }
+    &__button {
+        display: none;
+        &:checked ~ .toggle-menu-section__background {
+            transform: scale(80);
+        }
+        &:checked~nav {
+            transform: translate(-50%, -50%);
+            opacity: 1;
+            visibility: visible;
+        }
+        &:checked+.custom-checkbox-toggle span
+        {
+            background-color: transparent;
+        }
+        &:checked+.custom-checkbox-toggle span:before {
+            transform: rotate(135deg);
+            top: 0;
+        }
+        &:checked+.custom-checkbox-toggle span:after {
+            transform: rotate(-135deg);
+            top: 0;
+        }
+    }
+    &__background {
+        position: fixed;
+        width: 5rem;
+        height: 5rem;
+        border-radius: 50%;
+        right: 4.5rem;
+        top: 2.5rem;
+        background-color: white;
+        z-index: 9999;
+        background-image: radial-gradient(#5a73fc, #1c3eff);
+        z-index: 1000;
+        transition: .4s
+    }
+    &__navigation {
+        position: fixed;
+        z-index: 1500;
+        top: 50%;
+        left: 50%;
+        transform: translate(8%, -50%);
+        opacity: 0;
+        visibility: hidden;
+        transition: .4s;
+        &__list {
+            list-style: none;
+            &__item {
+                text-align: center;
+                 a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 3rem;
+                    font-weight: 300;
+                    padding: 2rem;
+                    border-radius: 2rem;
+                    display: inline-block;
+                    transition: .4s;
+                    background-image: radial-gradient(152% 200% ellipse at 119%, white 0%, white 50%, transparent 50% );
+                    background-size: 235%;
+                    &:hover {
+                        color: blue;
+                        transform: translateX(1rem);
+                        background-position: 100%;
+                        }
+                }
+                    
+                }
+            }
+        }
+    }
+

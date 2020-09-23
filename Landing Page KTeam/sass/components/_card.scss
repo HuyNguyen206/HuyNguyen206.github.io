@@ -1,0 +1,158 @@
+.card
+{
+    height: 40rem;
+    width: 100%;
+    position: relative;
+    perspective: 150rem;
+    @include respond(phone)
+    {
+        height: auto;
+    }
+    @include respond(small-screen)
+    {
+        height: auto;
+    }
+    &:hover &__front
+    {
+        transform: rotateY(180deg);
+        @include respond(phone)
+        {
+            transform: rotateY(0);
+        }
+        @include respond(small-screen)
+        {
+            transform: rotateY(0);
+        }
+    }
+    &__front
+    {
+        backface-visibility: hidden;
+        width: 100%;
+        height: 100%;
+        border-radius: 3rem;
+        box-shadow: 0.1rem 0.1rem 3rem grey;
+        position: absolute;
+        z-index: 2;
+        background: white;
+        transition: 1s;
+        @include respond(phone)
+        {
+            position: relative;
+            border-radius: 3rem 3rem 0 0;
+            box-shadow: 0rem 0rem 1.3rem #80808057;
+        }
+        @include respond(small-screen)
+        {
+            position: relative;
+            border-radius: 3rem 3rem 0 0;
+            box-shadow: 0rem 0rem 1.3rem #80808057;
+        }
+        &__top
+        {
+            width: 100%;
+            height: 20rem;
+            position: relative;
+            &__image, &__gradient
+            {
+                clip-path: ellipse(99% 59% at 51% 41%);
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                border-radius: 3rem;
+            }
+            &__gradient
+            {
+                z-index: 2;
+            }
+            &__text
+            {
+                color: white;
+                display: inline-block;
+                font-size: 2rem;
+                border-radius: 1.5rem;
+                padding: 1rem 0.7rem;
+                text-transform: uppercase;
+                position: absolute;
+                right: 0;
+                font-weight: 300;
+                z-index: 3;
+                &--top {
+                    top: 12rem;
+                }
+                &--bottom {
+                    top: 16rem;
+                }
+                
+            }
+        }
+      
+        &__description {
+            width: 70%;
+            margin: 0 auto;
+            padding: 5rem 0;
+            &__content
+            {
+                width: 100%;
+                color: gray;
+                text-align: center;
+                display: block;
+                padding: 1.3rem;
+                &:not(:last-of-type)
+                {
+                        border-bottom: 1px solid gray;
+                }
+            }
+        }
+    }
+        &:hover &__back
+        {
+            transform: rotateY(0)
+        }
+        &__back
+            {
+            backface-visibility: hidden;
+            border-radius: 3rem;
+            text-align: center;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 1;
+            transform: rotateY(-180deg);
+            transition: 1s;  
+            
+            @include respond(phone)
+            {
+                position: relative;
+                backface-visibility: visible;
+                border-radius: 0 0 3rem 3rem;
+                transform: rotateY(0);
+                padding-bottom: 4rem;
+                box-shadow: 0.1rem 0.10000000000000009rem 0.3rem #80808073;
+            
+            }
+            @include respond(small-screen)
+            {
+                position: relative;
+                backface-visibility: visible;
+                border-radius: 0 0 3rem 3rem;
+                transform: rotateY(0);
+                padding-bottom: 4rem;
+                box-shadow: 0.1rem 0.10000000000000009rem 0.3rem #80808073;
+            
+            }
+            span
+            {
+                color: white;
+                font-size: 1.5rem;
+                margin-top: 5rem;
+                display: inline-block;;
+            }
+            h2
+            {
+                font-size: 4rem;
+                margin-top: 2rem;
+                color: white;
+            }
+        }
+}

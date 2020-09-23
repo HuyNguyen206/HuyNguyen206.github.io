@@ -1,0 +1,465 @@
+*{}
+
+i#scrolltop:hover {
+    color: #384d60;
+}
+
+i#scrolltop {
+    color: #5d80a1;
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+hr.divine {
+    background: #2b3b4a;
+    height: 2px;
+    margin: 30px 0;
+}
+
+.download a {
+    color: white;
+    border: 1px solid #fff;
+    display: block;
+    text-align: left;
+    padding: 9px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+a.btn.btn-sm.bg-transparent:hover {
+    background: #4a6781 !important;
+    border: 1px solid #4a6781;
+}
+
+.icon-holder i:hover {
+    color: #ec6952;
+}
+
+.icon-holder i {
+    padding: 7px;
+    font-size: 23px;
+    /* opacity: 0.6; */
+}
+
+input.email {
+    border-radius: 5px;
+    border: none;
+    height: 100%;
+    padding: 10px;
+}
+
+.col-8.email-holder {
+    padding-right: 5px;
+}
+
+.col-4.subscrible-holder {
+    padding-left: 0;
+}
+
+a.btn.btn-sm.subscrible:hover {
+    background: #4a6781;
+    border-color: #4a6781;
+}
+
+a.btn.btn-sm.subscrible {
+    background: #5d80a1;
+    border-color: #5d80a1;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+}
+
+input.email {
+    width: 100%;
+}
+
+ul.footer-menu {
+    padding: 0;
+    list-style: none;
+}
+
+ul.footer-menu li a {
+    color: #7d9ab4;
+    position: relative;
+}
+
+ul.footer-menu li a::before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid #7d9ab4;
+    /* width: 10px; */
+    /* height: 10px; */
+    display: block;
+    /* background: bisque; */
+    position: absolute;
+    top: 8px;
+    left: -9px;
+    /* transform: rotate(45deg); */
+}
+
+a.btn.btn-lg.btn-danger.getnow {
+    /* display: inline-block; */
+    color: white;
+    background-color: #ec6952;
+    border-color: #ec6952;
+    font-weight: bold;
+}
+
+a.btn.btn-lg.btn-danger.getnow:hover {
+    background: #e9553b;
+    border-color: #e9553b;
+}
+
+span.number {
+    color: #ec6952;
+}
+
+.khung4 img.img-fluid:hover {
+    opacity: 1;
+}
+
+.khung4 img.img-fluid {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.carousel-item img.img-fluid {
+    width: 140px;
+    height: 140px;
+}
+
+.carousel-inner {}
+
+ol.carousel-indicators {
+    bottom: 0;
+}
+
+ol.carousel-indicators li {
+    background: #ccc;
+    height: 3px !important;
+    /* margin: 0; */
+    /* padding: 0; */
+    border: none;
+}
+
+.carousel-indicators li.active {
+    background: #f19180;
+}
+
+.khung3 {
+    background: #f5f5f5;
+}
+
+a.tour.btn.btn-lg:hover {background: #ec6952;color: white;}
+
+a.tour.btn.btn-lg {
+    color: #ec6952;
+    border-color: #ec6952;
+    font-size: 14px;
+    padding: 10px 30px;
+    border-width: 2px;
+}
+
+.comment {
+    background: #f5f5f5;
+    padding: 15px;
+    box-shadow: -3px 0px 0px #8080803d;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+li.nav-item a.nav-link.sign-up {
+    color: white !important;
+}
+
+ul.navbar-nav.menutop li.nav-item.dropdown.page:hover a {
+    color: white !important;
+}
+
+ul.navbar-nav.menutop .nav-item:hover a {
+    color: #ec6952 !important;
+}
+
+li.nav-item.active a {
+    color: #ec6952 !important;
+}
+
+
+li.page:hover .dropdown-menu {
+    display: block !important;
+    margin: 0;
+    padding: 0;
+    top: 42px;
+}
+
+a.dropdown-item:hover {
+    background: #2e4050;
+}
+
+.dropdown-menu a {
+    border-bottom: 1px solid #212e3a;
+}
+
+.dropdown-menu {
+    background: #253340;
+}
+
+.nav-item.dropdown.page .dropdown-menu a {
+    color: white !important;
+}
+
+a.nav-link.sign-up:hover {
+    background: #ec6952 !important;
+    border-color: #ec6952 !important;
+    color: white !important;
+    box-sizing: border-box !important;
+}
+
+a.nav-link.sign-up {
+    border: 1px solid white;
+    border-radius: 3px;
+    transition: 0.4s;
+    box-sizing: border-box !important;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul.navbar-nav.menutop li a {
+    color: white !important;
+    transition: 0.4s;
+}
+
+
+ul.navbar-nav.menutop li {
+    padding: 0px 15px;
+}
+
+nav.navbar.navbar-expand-md.navbar-light.bg-light {
+    background: transparent !important;
+}
+
+.sologan h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.youtube span, .youtube i {
+    opacity: 0.6;
+    font-weight: bold;
+}
+
+
+a.btn.btn-lg.text-white.menu-brand {
+    display: inline-block;
+}
+
+div#navbarNav {
+    justify-content: flex-end;
+}
+
+
+.menu-brand {
+    background: #ec6952;
+    color: white !important;
+    font-weight: bold;
+    padding: 10px 29px;
+    border-radius: 3px;
+    display: inline-block;
+    /* position: fixed; */
+    /* top: 0; */
+}
+
+a.navbar-brand.menu-brand {
+    position: fixed;
+    top: 0;
+    transition: 0.4s;
+}
+
+
+
+a.btn.btn-lg.text-white {
+    display: block;
+}
+
+
+.khung1 .khungchu {
+    color: white;
+    /* padding: 100px 0px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subtitle p {
+    font-size: 22px;
+}
+
+.subtitle p {
+    opacity: 0.7;
+    font-size: 19px;
+}
+.khung1
+{
+    width: 100%;
+    height: auto;
+    background-image: url(1.jpg);
+    background-size: cover;
+    background-repeat: none
+}
+    @media (min-width: 767px) and (max-width: 991px)
+    {
+        *{}
+
+.dropdown-menu {
+    top: 42px;
+}
+
+div#navbarNav {
+    /* position: fixed; */
+    top: 50px;
+}
+        .khung1 .nav-container
+        {
+            flex-direction: column !important;
+        }
+    }
+    @media (max-width: 766px) 
+    {
+        *{}
+
+div#navbarNav {
+    position: fixed;
+    top: 50px;
+}
+
+.container.nav-container {
+    position: relative;
+}
+
+button.navbar-toggler {
+    position: absolute;
+    right: 0;
+}
+
+div#navbarNav {
+    width: 100%;
+}
+
+.container.nav-container {
+    flex-direction: column;
+}
+
+button.navbar-toggler {
+    background: white;
+}
+        /*.khung1 .nav-container
+        {
+            flex-direction: column !important;
+        }*/
+        .menutop
+        {
+            background: #253340 !important;
+            padding: 20px 15px;
+            margin-top: 10px;
+        }
+        .dropdown-menu
+        {
+            border: none !important;
+        }
+    }
+    li.nav-item.sign-up-parent:hover a.nav-link.sign-up {
+    color: white !important;
+}
+ul.navbar-nav.menutop li.nav-item.dropdown.page:hover a.dropdown-toggle {color: #ec6952 !important;}
+.khung5
+{
+    background-image: url(2.jpg);
+    background-size: cover;
+    color: white;
+    padding: 50px 0px 100px 0;
+}
+
+.khung6
+{
+    background: #253340;
+    color: white
+}
+.footer
+{
+    background: #1c2630;
+    color: #b3b3b3;
+    font-size: 14px;
+}
+.footer p
+{
+    font-size: 13px;
+    margin: 0;
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom
+{
+    background: white !important
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom .nav-link
+{
+    color: black !important;
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom .nav-item:hover .nav-link
+{
+    color: black !important;
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom .nav-link.sign-up
+{
+    color: white !important;
+    background: rgb(236, 105, 82)
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom .sign-up-parent:hover .nav-link.sign-up
+{
+    color: white !important;
+    background: rgb(236, 105, 82) !important
+}
+nav.navbar.navbar-expand-md.fixed-top.navbar-light.bg-light.navcustom .navbar-brand.menu-brand
+{
+    background: white !important;
+    color: rgb(236, 105, 82) !important;
+    position: relative !important;; 
+}
+@media (max-width:992px)
+{
+    *{
+    /* position: initial !important; */
+    /* bottom: 10px; */
+    /* top: 0; */
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 0;
+}
+
+li.nav-item.dropdown.page {
+    position: relative;
+}
+
+a.navbar-brand.menu-brand {
+    position: relative;
+}
+    nav.navbar.navbar-expand-md.navbar-light.bg-light
+    {
+        position: relative !important;
+    }
+} 
+
+.fade-in
+{
+    opacity: 1 !important;
+}
+#scrolltop
+{
+    opacity: 0;
+    transition: 0.4s;
+}

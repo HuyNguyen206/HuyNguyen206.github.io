@@ -1,0 +1,39 @@
+@keyframes goRight
+{
+    0% {
+        transform: translate(-60%, -50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+
+@keyframes goLeft
+{
+    0% {
+        transform: translate(-40%, -50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+    }
+}
+
+@keyframes goUp
+{
+    0% {
+        transform: translateY(100px) translate(-50%, -50%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0) translate(-50%, -50%);
+        opacity: 1;
+    }
+}
