@@ -1,0 +1,30 @@
+*{}
+
+div.dropdown-menu.show {
+    transform: translate3D(-39px, 38px, 0px) !important;
+}
+
+img.image-product {
+    width: 300px;
+}
+
+.gallery-product-image img {
+    width: 300px;
+    margin-right: 15px;
+}
+
+button.select2-selection__choice__remove:hover {
+    color: black !important;
+}
+
+input.select2-search__field {
+    display: block;
+    width: 100% !important;
+}
+.head-title
+{
+    background: #259cc3;
+    color: white;
+}
+
+

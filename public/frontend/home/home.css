@@ -1,0 +1,43 @@
+*{}
+/*.productinfo.text-center img*/
+/*{*/
+/*    height: 350px;*/
+/*    object-fit: contain;*/
+/*}*/
+/*.single-products*/
+/*{*/
+/*    height: 520px;*/
+/*}*/
+.slider-image-custom
+{width: 484px;height: 441px;object-fit: contain;}
+
+.category-product-tab
+{
+    max-height: 60px;
+    overflow: hidden;
+}
+.productinfo a
+{
+    color: black;
+}
+
+.product-overlay a
+{
+    color: white;
+}
+
+/*.product-image-wrapper {*/
+/*    min-height: 396px;*/
+/*}*/
+/*@media (min-width: 1200px)*/
+/*{*/
+/*    ul.nav.nav-pills.nav-justified {*/
+/*        margin-top: 25px;*/
+/*    }*/
+/*}*/
+/*@media (min-width: 768px) and (max-width: 991px)*/
+/*{*/
+/*    ul.nav.nav-pills.nav-justified {*/
+/*        margin-top: 25px;*/
+/*    }*/
+/*}*/
